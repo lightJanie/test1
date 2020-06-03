@@ -1,0 +1,258 @@
+[
+{
+  "model": "goods.catalog",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:28:19.392",
+    "update_time": "2020-02-13T18:28:19.392",
+    "name": "\u624b\u63d0\u5305"
+  }
+},
+{
+  "model": "goods.brand",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:27:53.830",
+    "update_time": "2020-02-13T18:27:53.830",
+    "name": "\u5b89\u8e0f",
+    "logo": "anta.png",
+    "first_letter": "A"
+  }
+},
+{
+  "model": "goods.brand",
+  "pk": 2,
+  "fields": {
+    "create_time": "2020-02-13T18:28:11.977",
+    "update_time": "2020-02-13T20:49:13.224",
+    "name": "\u963f\u8fea\u8fbe\u65af",
+    "logo": "adidas.png",
+    "first_letter": "A"
+  }
+},
+{
+  "model": "goods.spu",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:28:40.253",
+    "update_time": "2020-02-13T18:28:40.253",
+    "name": "\u5b89\u8e0fA",
+    "sales": 10000,
+    "comments": 10000,
+    "brand": 1,
+    "catalog": 1
+  }
+},
+{
+  "model": "goods.spu",
+  "pk": 2,
+  "fields": {
+    "create_time": "2020-02-13T18:28:52.019",
+    "update_time": "2020-02-13T18:28:52.019",
+    "name": "\u5b89\u8e0fB",
+    "sales": 1234,
+    "comments": 123,
+    "brand": 1,
+    "catalog": 1
+  }
+},
+{
+  "model": "goods.spu",
+  "pk": 3,
+  "fields": {
+    "create_time": "2020-02-13T18:29:06.737",
+    "update_time": "2020-02-13T18:29:06.737",
+    "name": "CLAS1",
+    "sales": 10000,
+    "comments": 10000,
+    "brand": 2,
+    "catalog": 1
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:29:37.595",
+    "update_time": "2020-02-13T18:29:37.596",
+    "SPU_id": 1,
+    "sale_attr_name": "\u5b89\u8e0fA/\u5c3a\u5bf8"
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 2,
+  "fields": {
+    "create_time": "2020-02-13T18:29:41.392",
+    "update_time": "2020-02-13T18:29:41.392",
+    "SPU_id": 1,
+    "sale_attr_name": "\u5b89\u8e0fA/\u989c\u8272"
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 3,
+  "fields": {
+    "create_time": "2020-02-13T18:29:45.878",
+    "update_time": "2020-02-13T18:29:45.878",
+    "SPU_id": 2,
+    "sale_attr_name": "\u5b89\u8e0fB/\u5c3a\u5bf8"
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 4,
+  "fields": {
+    "create_time": "2020-02-13T18:29:48.649",
+    "update_time": "2020-02-13T18:29:48.649",
+    "SPU_id": 2,
+    "sale_attr_name": "\u5b89\u8e0fB/\u989c\u8272"
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 5,
+  "fields": {
+    "create_time": "2020-02-13T18:29:53.780",
+    "update_time": "2020-02-13T18:29:53.780",
+    "SPU_id": 3,
+    "sale_attr_name": "CLAS1/\u5c3a\u5bf8"
+  }
+},
+{
+  "model": "goods.spusaleattr",
+  "pk": 6,
+  "fields": {
+    "create_time": "2020-02-13T18:30:00.358",
+    "update_time": "2020-02-13T18:30:00.358",
+    "SPU_id": 3,
+    "sale_attr_name": "CLAS1/\u989c\u8272"
+  }
+},
+{
+  "model": "goods.sku",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:30:48.707",
+    "update_time": "2020-02-13T18:30:48.707",
+    "name": "\u5b89\u8e0fA\u84dd\u8272\u5c0f\u5c3a\u5bf8",
+    "caption": "\u84dd\u8272\u5c0f\u5c3a\u5bf8",
+    "SPU_ID": 1,
+    "price": "100.00",
+    "cost_price": "50.00",
+    "market_price": "100.00",
+    "stock": 100,
+    "sales": 10000,
+    "comments": 10000,
+    "is_launched": true,
+    "default_image_url": "1_6IONrTl.png",
+    "version": 0
+  }
+},
+{
+  "model": "goods.sku",
+  "pk": 2,
+  "fields": {
+    "create_time": "2020-02-13T18:31:28.153",
+    "update_time": "2020-02-13T18:32:08.701",
+    "name": "\u5b89\u8e0fA\u7ea2\u8272\u5927\u5c3a\u5bf8",
+    "caption": "\u7ea2\u8272\u5927\u5c3a\u5bf8",
+    "SPU_ID": 1,
+    "price": "200.00",
+    "cost_price": "100.00",
+    "market_price": "200.00",
+    "stock": 100,
+    "sales": 1234,
+    "comments": 123,
+    "is_launched": true,
+    "default_image_url": "2_i2NMNkA.png",
+    "version": 0
+  }
+},
+{
+  "model": "goods.sku",
+  "pk": 3,
+  "fields": {
+    "create_time": "2020-02-13T18:32:01.066",
+    "update_time": "2020-02-13T20:32:05.534",
+    "name": "\u5b89\u8e0fB\u7ea2\u8272\u5927\u5c3a\u5bf8",
+    "caption": "\u7ea2\u8272\u5927\u5c3a\u5bf8",
+    "SPU_ID": 2,
+    "price": "3000.00",
+    "cost_price": "2000.00",
+    "market_price": "3000.00",
+    "stock": 100,
+    "sales": 10000,
+    "comments": 10000,
+    "is_launched": true,
+    "default_image_url": "3_OjO7Eft.png",
+    "version": 0
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 1,
+  "fields": {
+    "create_time": "2020-02-13T18:32:31.786",
+    "update_time": "2020-02-13T18:38:47.292",
+    "sale_attr_id": 1,
+    "sku": 1,
+    "sale_attr_value_name": "15\u5bf8"
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 2,
+  "fields": {
+    "create_time": "2020-02-13T18:33:17.959",
+    "update_time": "2020-02-13T18:39:05.974",
+    "sale_attr_id": 2,
+    "sku": 1,
+    "sale_attr_value_name": "\u84dd\u8272"
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 3,
+  "fields": {
+    "create_time": "2020-02-13T18:33:52.086",
+    "update_time": "2020-02-13T18:39:15.833",
+    "sale_attr_id": 1,
+    "sku": 2,
+    "sale_attr_value_name": "18\u5bf8"
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 4,
+  "fields": {
+    "create_time": "2020-02-13T18:34:01.167",
+    "update_time": "2020-02-13T18:39:26.151",
+    "sale_attr_id": 2,
+    "sku": 2,
+    "sale_attr_value_name": "\u7ea2\u8272"
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 5,
+  "fields": {
+    "create_time": "2020-02-13T18:34:13.994",
+    "update_time": "2020-02-13T18:39:32.947",
+    "sale_attr_id": 3,
+    "sku": 3,
+    "sale_attr_value_name": "18\u5bf8"
+  }
+},
+{
+  "model": "goods.saleattrvalue",
+  "pk": 6,
+  "fields": {
+    "create_time": "2020-02-13T18:34:47.030",
+    "update_time": "2020-02-13T18:39:40.017",
+    "sale_attr_id": 4,
+    "sku": 3,
+    "sale_attr_value_name": "\u7ea2\u8272"
+  }
+}
+]
